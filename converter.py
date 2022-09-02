@@ -1,7 +1,12 @@
 import builtins
 import decimal
 
-input = int(input("What would you like to convert? \n 1) Decimal to Binary \n 2) Decimal to Hexadecimal \n 3) Decimal to Octal \n 4) Hexadecimal to Decimal \n 5) Hexadecimal to Binary \n 6) Hexadecimal to Octal \n 7) Binary to Decimal \n 8) Binary to Hexadecimal \n 9) Binary to Octal \n 10) Octal to Decimal \n 11) Octal to Hexadecimal \n 12) Octal to Binary \n Please enter number: "))
+input = int(input("""What would you like to convert? 
+\n 1) Decimal to Binary \n 2) Decimal to Hexadecimal \n 3) Decimal to Octal 
+\n 4) Hexadecimal to Decimal \n 5) Hexadecimal to Binary \n 6) Hexadecimal to Octal 
+\n 7) Binary to Decimal \n 8) Binary to Hexadecimal \n 9) Binary to Octal 
+\n 10) Octal to Decimal \n 11) Octal to Hexadecimal \n 12) Octal to Binary 
+\n Please enter number: """))
 
 # Decimal to Binary
 if input == int("1"):
